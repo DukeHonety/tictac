@@ -395,7 +395,9 @@ namespace BlazorWasmTicTacToe.Models
                 AI();
             }
         }
-
+        private void display(){
+            
+        }
         public bool IsADraw()
         {
             int pieceBlankCount = 0;
